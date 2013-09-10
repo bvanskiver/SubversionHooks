@@ -1,0 +1,34 @@
+﻿<html xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+        <style type="text/css">
+            body { background:#fff;color:#000; }
+            body, th, td { font:normal 13px Verdana,Arial,Helvetica,sans-serif; }
+            table tbody th { text-align:right;vertical-align:top;font-weight:bold; }
+            ul { margin:0;padding:0; }
+            li { list-style-type:none; }
+        </style>
+    </head>
+    <body>
+        <table border="0" cellpadding="0" cellspacing="0">
+            <tbody>
+                <tr>
+                    <th>Revision:&nbsp;&nbsp;&nbsp;</th>
+                    <td><a href="${revision-url}">${revision}</a></td>
+                </tr>
+                <tr>
+                    <th>Author:&nbsp;&nbsp;&nbsp;</th>
+                    <td>${author}</td>
+                </tr>
+                <tr><td colspan="2">&nbsp;</td></tr>
+                <tr>
+                    <th valign="top">Message:&nbsp;&nbsp;&nbsp;</th>
+                    <td>${message}</td>
+                </tr>
+            </tbody>
+        </table>
+
+        <p><b>Changed Paths:</b></p>
+        <pre>${file-list}</pre>
+    </body>
+</html>
